@@ -1,0 +1,9 @@
+name = "profit-chat"
+main = "server/cloudflare-worker.js"
+compatibility_date = "2024-09-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://profitnutritionsweden.dawaconsulting.se"
+
+# Lägg env-hemligheten separat:
+# wrangler secret put OPENAI_API_KEY
